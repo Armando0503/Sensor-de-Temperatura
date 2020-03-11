@@ -2,8 +2,15 @@
 Programa que muestra la temperatura actual y la temperatura promedio
 const int sensorPin = A0;
 int values=analogRead(sensorPin);
+
+
+
+
 int datos[7]={"\0"};
 int cont1=0;
+
+
+
 int cont2=0;
 int prom=0;
 void setup() {
@@ -48,6 +55,10 @@ void llenado(int datos[7]) //Aqui se llena el vector con 7 datos
    // Serial.println("  ");
   }
 }
+
+
+
+
 void ordena(int datos[7]) //Se hace el ordenamiento de datos por el metodo burbuja
 {
   int k,j,aux;
