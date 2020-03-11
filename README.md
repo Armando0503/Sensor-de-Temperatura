@@ -1,6 +1,14 @@
 # Sensor-de-Temperatura
 Programa que muestra la temperatura actual y la temperatura promedio
+
+
+
+
 const int sensorPin = A0;
+
+
+
+
 int values=analogRead(sensorPin);
 
 
